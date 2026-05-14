@@ -5,6 +5,7 @@ from dataclasses import dataclass
 class Settings:
     ollama_base_url: str = "http://localhost:11434"
     llm_model: str = "llama3"
+    # "mxbai-embed-large" or "embeddinggemma"
     embedding_model: str = "mxbai-embed-large"
     chunk_size: int = 900
     chunk_overlap: int = 150

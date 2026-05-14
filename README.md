@@ -57,19 +57,19 @@ ollama pull mxbai-embed-large
 5. Paste your documents `.txt`, `.md` or `.pdf` in "./data/docs".
 6. Build the FAISS indexes. In the root of this project, run:
 ```bash
-python -m src.rag_local.build_index --docs-dir data/docs --index-dir data/indexes/main
+python -m src.build_index --docs-dir data/docs --index-dir data/indexes/main
 ```
 The input arguments 'docs-dir' and 'index-dir' specify the documents source path and the vector DB indexes, respectively.
 
 
 7. Run "main.py" with the following command:
 ```bash
-python -m src.rag_local.main --index-dir data/indexes/main
+python -m main --index-dir data/indexes/main
 ```
 The conversational memory is saved automatically in "./data/memory/conversation.json", which is used as context with the fragments recovered from FAISS to answer the questions.
 
 In order to delete the previous conversation, run:
 ```bash
-python -m src.rag_local.chat --index-dir data/indexes/main --clear-memory
+python -m src.chat --index-dir data/indexes/main --clear-memory
 ```
 or delete manually the file "data/memory/conversation.json".
