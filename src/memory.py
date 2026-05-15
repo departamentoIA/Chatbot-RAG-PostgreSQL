@@ -13,7 +13,7 @@ class Message:
 class ConversationMemory:
     """Memoria conversacional persistente en un archivo JSON."""
 
-    def __init__(self, memory_path: str | Path, max_messages: int = 12):
+    def __init__(self, memory_path: str | Path, max_messages: int = 10):
         self.memory_path = Path(memory_path)
         self.max_messages = max_messages
         self.messages: list[Message] = []

@@ -7,12 +7,12 @@ class Settings:
     llm_model: str = "llama3"
     # "mxbai-embed-large" or "embeddinggemma"
     embedding_model: str = "mxbai-embed-large"
-    chunk_size: int = 900
-    chunk_overlap: int = 150
+    chunk_size: int = 100
+    chunk_overlap: int = 20
     top_k: int = 5
-    temperature: float = 0.2
+    temperature: float = 0.1
     memory_path: str = "data/memory/conversation.json"
-    memory_max_messages: int = 12
+    memory_max_messages: int = 10
 
 
 settings = Settings()

@@ -1,0 +1,26 @@
+[
+  {
+    "role": "usuario",
+    "content": "hola"
+  },
+  {
+    "role": "asistente",
+    "content": "Hola! Me alegra poder ayudarte. Como soy Sebastián, tu asistente especializado en responder con el contexto documental y el historial de conversación, puedo decirte que no hay información previa sobre la que trabajar, ya que este es nuestro primer intercambio. ¿En qué puedo ayudarte hoy?"
+  },
+  {
+    "role": "usuario",
+    "content": "Me llamo Mario"
+  },
+  {
+    "role": "asistente",
+    "content": "Hola Mario! Me alegra conocerte. Como soy Sebastián, tu asistente especializado en responder con el contexto documental y el historial de conversación, puedo decirte que no hay información previa sobre ti en los archivos que tengo a mi disposición. Sin embargo, si deseas proporcionarme más información o detalles sobre ti mismo, estaré encantado de ayudarte. ¿En qué puedo asistirte hoy?"
+  },
+  {
+    "role": "usuario",
+    "content": "dime de qué trata el documento"
+  },
+  {
+    "role": "asistente",
+    "content": "Excelente pregunta, Mario! Como soy Sebastián, tu asistente especializado en responder con el contexto documental y el historial de conversación, puedo decirte que el archivo que tengo a mi disposición es \"Datos_Antonio.txt\" y contiene información personal sobre Antonio Cruz Arteaga Escamilla. En específico, el fragmento 0 del archivo describe los siguientes datos: nombre, apellidos, empresa y fecha de nacimiento.\n\nEn resumen, el documento trata sobre la biografía básica de Antonio Cruz Arteaga Escamilla."
+  }
+]
